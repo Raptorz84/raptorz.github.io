@@ -2,19 +2,60 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+Tyler Ebra|Cybersecurity Student
 
-[Link to another page](./another-page.html).
+Welcome to my cybersecurity portfolio. I am currenly pursuing a B.A. in cybersecurity and I am passionate about SOC analysis, security automation and threat detection. Below is a list of all relevent projects in my cybersecurity journey.
 
-There should be whitespace between paragraphs.
+## Education and Certifications
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+B.A. in Cybersecurity, Southeastern University (Expected 12/2025)
+Comptia Security+ (Expected in 6/2025)
+Google Cybersecurity Certificate 05/2025
 
-# Header 1
+## Relevent Experience
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and repairing hardware and software issues as well as strenghtening fundamental security practices. 
 
-## Header 2
+
+# Cybersecurity Projects
+
+## Set up a Home Lab
+
+
+
+## Set Up and Configured a SIEM
+
+
+
+## Capture The Flag Completions
+
+
+
+## Try2Hack.ME
+
+
+
+## Simulated Risk Assesment
+
+### Incident Report for Brute Force Attack
+> Documentation for an attack on an E-comemrce company and the next steps to take
+
+[Download The Document](https://github.com/Raptorz84/raptorz.github.io/blob/15bdc9623fd10e93b18135d6bb792b66d24f423d/Incident%20Report%20for%20E-Commerce%20Company.pdf)
+
+### Incident Handler's Journal 
+> This documents various simulated cyber attacks
+
+[Download The Document](https://github.com/Raptorz84/raptorz.github.io/blob/15bdc9623fd10e93b18135d6bb792b66d24f423d/Incident%20Handler's%20Journal%20.pdf)
+
+### Incident Report for SYN Flood Attack
+> This attack was observed capturing and analyzing the network packets through wireshark. 
+
+[Download The Document](https://github.com/Raptorz84/raptorz.github.io/blob/15bdc9623fd10e93b18135d6bb792b66d24f423d/Incident%20Report%20for%20SYN%20Flood%20Attack.pdf)
+
+
+
+
+# Extra Stuff
 
 > This is a blockquote following a header.
 >
@@ -105,14 +146,16 @@ end
 
 <dl>
 <dt>Name</dt>
-<dd>Godzilla</dd>
+<dd>Tyler Ebra</dd>
 <dt>Born</dt>
-<dd>1952</dd>
+<dd>2004</dd>
 <dt>Birthplace</dt>
-<dd>Japan</dd>
+<dd>Florida</dd>
 <dt>Color</dt>
-<dd>Green</dd>
 </dl>
+
+
+
 
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
