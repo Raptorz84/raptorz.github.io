@@ -16,6 +16,7 @@ Google Cybersecurity Certificate 05/2025
 
 Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and repairing hardware and software issues as well as strenghtening fundamental security practices. 
 
+* * *
 
 # Cybersecurity Projects
 
@@ -29,10 +30,15 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 
 ## Capture The Flag Completions
 
+### Pico CTF
+> Below is a link to all the 30+ Pico CTF completions.
 
+[Link to CTF's](https://play.picoctf.org/users/RaptorZ)
 
-## Try2Hack.ME
+### Try2Hack.Me
+> Completed Try2Hack me CTF challenge completions.
 
+[Try2Hack.Me Completions](https://try2hack.me/vysledky)
 
 
 ## Simulated Risk Assesment
@@ -53,7 +59,7 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 [Download The Document](https://github.com/Raptorz84/raptorz.github.io/blob/15bdc9623fd10e93b18135d6bb792b66d24f423d/Incident%20Report%20for%20SYN%20Flood%20Attack.pdf)
 
 
-
+* * *
 
 # Extra Stuff
 
