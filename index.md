@@ -64,4 +64,8 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 
 [Download The Document](https://github.com/Raptorz84/raptorz.github.io/blob/15bdc9623fd10e93b18135d6bb792b66d24f423d/Incident%20Report%20for%20SYN%20Flood%20Attack.pdf)
 
+# Link to additional resources
 
+### Resume
+
+[View Document](https://github.com/Raptorz84/raptorz.github.io/blob/fbd6c5710cb68a23d32e9d0af3e2733e8b2b8096/Tyler's%20Resume.pdf)
