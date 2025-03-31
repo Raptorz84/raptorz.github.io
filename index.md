@@ -8,9 +8,10 @@ Welcome to my cybersecurity portfolio. I am currenly pursuing a B.A. in cybersec
 
 ## Education and Certifications
 
-B.A. in Cybersecurity, Southeastern University (Expected 12/2025)
-Comptia Security+ (Expected in 6/2025)
-Google Cybersecurity Certificate 05/2025
+*   B.A. in Cybersecurity, Southeastern University (Expected 12/2025)
+*   Comptia Security+ (Expected in 6/2025)
+*   Google Cybersecurity Certificate 05/2025
+
 
 ## Relevent Experience
 
