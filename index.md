@@ -32,7 +32,7 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 ## Capture The Flag Completions
 
 ### Pico CTF
-> Below is a link to all the 30+ Pico CTF completions.
+> Below is a link to all the 40+ Pico CTF completions.
 >
 
 [Link to CTF's](https://play.picoctf.org/users/RaptorZ)
