@@ -22,14 +22,15 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 # Cybersecurity Projects
 
 ## Set up a Home Lab
-
+> I was able to set ip a home lab enviroment where i could test different system nd network vulnerabilities. I was a also able to use the home lab to set up an and peoperly configured a SIEM to monitor the network.
 
 
 ## Set Up and Configured a SIEM
-
+> On the virtual machine I had set up I set up and configured a SIEM to monitor the home lab network. It was configured properly to avoid false false positves and detect malicoois network traffic.
 
 
 ## Capture The Flag Completions
+> Here are the various CTF challenges I have completed helping me gain a better understanding of ethical hacking and vulnerability assesment.
 
 ### Pico CTF
 > Below is a link to all the 40+ Pico CTF completions.
@@ -45,6 +46,7 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 
 
 ## Simulated Risk Assesment
+> I have completed multiple risk assesments and made incident reports documenting what happened and whare the next actionsble steps. This is a colection of my incident reporting and knowledge.
 
 ### Incident Report for Brute Force Attack
 > Documentation for an attack on an E-comemrce company and the next steps to take. I analyzed a real-world attack scenario involving DNS and HTTP protocols. The attack was initiated through a brute-force compromise of a website's admin credentials, enabling the attacker to inject malicious redirects onto the website. This led to malware infections on users’ devices. Using Wireshark, I captured and analyzed network traffic to identify the exploitation method and track DNS requests leading to the malicious domain. This project reinforced my understanding of network forensics and intrusion detection while demonstrating my ability to investigate and mitigate cyber threats effectively.
