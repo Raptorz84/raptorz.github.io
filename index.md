@@ -66,6 +66,53 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 
 [Download The Document](https://github.com/Raptorz84/raptorz.github.io/blob/15bdc9623fd10e93b18135d6bb792b66d24f423d/Incident%20Report%20for%20SYN%20Flood%20Attack.pdf)
 
+# Coding Projects
+> This is a list of all the coding relating projects I have completed with relevent code attached.
+
+### Python
+> This script automates the process of maintaining an IP allow list, ensuring that only authorized employees can access a restricted subnetwork. The algorithm scans the allow list, checks for any IPs that appear on a remove list, and updates the file accordingly.
+
+```python
+# Defined a function named `update_file` that takes in two parameters: `import_file` and `remove_list`
+def update_file(import_file, remove_list):
+
+    # Used a 'with` statement to read in the initial contents of the file
+    with open(import_file, "r") as file:
+
+    # Used `.read()` to read the imported file and store it in a variable named `ip_addresses`
+    ip_addresses = file.read()
+
+    # Used `.split()` to convert `ip_addresses` to a list from a string
+    ip_addresses = ip_addresses.split()
+
+    # Built an iterative statement that loops through 'ip_addresses' using the variable 'element'
+    for element in ip_addresses:
+
+    # Built a conditional statement that checks if the current 'element' is in the 'remove_list'
+    # and removes it
+       if element in remove_list:
+         ip_addresses.remove(element)
+
+    # This converts the `ip_addresses` back to a string so that it can be written into the text file 
+    ip_addresses = " ".join(ip_addresses)       
+
+    # Used a `with` statement to rewrite the original file by replacing its content with 'ip_addresses'
+    with open(import_file, "w") as file:
+      file.write(ip_addresses)
+
+# Calls `update_file()` function and passes in "allow_list.txt" and the list of IP addresses to be removed
+update_file("allow_list.txt",["192.168.25.60", "192.168.140.81", "192.168.203.198"] )
+
+# Used a 'with' statement to read the updated file and store its contents the 'text'
+with open("allow_list.txt", "r") as file:
+  text = file.read()
+
+# Display the contents of 'text'
+print(text)
+```
+The script uses a funtion that intakes the list of ip addresses as well as the ip addresses that should be removed. It also updates the existing list of ip addresses after the removal. After the function is executed the updated file list is printed.
+
+
 # Link to additional resources
 
 ### Resume
