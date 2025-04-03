@@ -70,7 +70,8 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 > This is a list of all the coding relating projects I have completed with relevent code attached.
 
 ### Python
-> This script automates the process of maintaining an IP allow list, ensuring that only authorized employees can access a restricted subnetwork. The algorithm scans the allow list, checks for any IPs that appear on a remove list, and updates the file accordingly.
+
+This script automates the process of maintaining an IP allow list, ensuring that only authorized employees can access a restricted subnetwork. The algorithm scans the allow list, checks for any IPs that appear on a remove list, and updates the file accordingly.
 
 ```python
 # Defined a function named `update_file` that takes in two parameters: `import_file` and `remove_list`
