@@ -114,6 +114,8 @@ print(text)
 The script uses a funtion that intakes the list of ip addresses as well as the ip addresses that should be removed. It also updates the existing list of ip addresses after the removal. After the function is executed the updated file list is printed.
 
 
+***
+
 # Link to additional resources
 
 ### Resume
