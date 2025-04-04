@@ -26,7 +26,7 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 
 
 ## Set Up and Configured a SIEM
-> On the virtual machine I had set up I set up and configured a SIEM to monitor the home lab network. It was configured properly to avoid false false positves and detect malicoois network traffic.
+> On the virtual machine I had set up I set up and configured a SIEM to monitor the home lab network. It was configured properly to avoid false false positves and detect malicious network traffic.
 
 
 ## Capture The Flag Completions
