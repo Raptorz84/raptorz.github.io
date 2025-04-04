@@ -22,7 +22,7 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 # Cybersecurity Projects
 
 ## Set up a Home Lab
-> I was able to set ip a home lab enviroment where i could test different system nd network vulnerabilities. I was a also able to use the home lab to set up an and peoperly configured a SIEM to monitor the network.
+> I was able to set up a home lab enviroment where i could test different system nd network vulnerabilities. I was a also able to use the home lab to set up an and peoperly configured a SIEM to monitor the network.
 
 
 ## Set Up and Configured a SIEM
