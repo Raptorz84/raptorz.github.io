@@ -27,7 +27,7 @@ I was able to set up a home lab enviroment where i could test different system n
 - SIEM Tool: Microsoft Sentinel
 - Use: Open RDP Port Honeypot
 
-![Network Diagram](https://github.com/Raptorz84/raptorz.github.io/blob/main/0e82078e-14ea-468c-9e57-170c2501636b.png)
+[Network Diagram](0e82078e-14ea-468c-9e57-170c2501636b.png)
 
 ### Virtual Machines
 
