@@ -96,6 +96,7 @@ SecurityEvents
 - Logged the activity that came through from the internet recording failed and succesful login attempts
 - Understood proper SIEM tuning as an abundance of alerts makes it difficult to analyze the logs
 - Used KQL rules to filter the logs and produce alerts on important security events
+
 This project helped give me some real-world exposure to setting up and configuring a cloud-based SIEM from scratch, analyzing threats, and writing custom detections rules. This project helped me expand my threat detection and analysis skills as well understanding log fowarding and the importance of properly setting up a SIEM.
 
 
