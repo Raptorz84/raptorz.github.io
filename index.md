@@ -2,9 +2,9 @@
 layout: default
 ---
 
-Tyler Ebra|Cybersecurity Student
+Tyler Ebra|Cybersecurity & Business Student|Hardware & Software Technician|Shift Manager
 
-Welcome to my cybersecurity portfolio. I am currenly pursuing a B.A. in cybersecurity and I am passionate about SOC analysis, security automation and threat detection. Below is a list of all relevent projects in my cybersecurity journey.
+Welcome to my cybersecurity portfolio. I am currenly pursuing a Bachelor of Business Administration in cybersecurity and I am passionate about SOC analysis, security automation and threat detection. Below is a list of all relevent projects in my cybersecurity journey.
 
 ## Education and Certifications
 
@@ -21,12 +21,85 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 
 # Cybersecurity Projects
 
-## Set up a Home Lab
-> I was able to set up a home lab enviroment where i could test different system nd network vulnerabilities. I was a also able to use the home lab to set up an and peoperly configured a SIEM to monitor the network.
+## Set up a Home Lab SIEM Monitoring Project
+I was able to set up a home lab enviroment where i could test different system nd network vulnerabilities. I was a also able to use the home lab to set up an and peoperly configured a SIEM to monitor the network. It was configured properly to avoid false false positves and detect malicious network traffic.
+- Platform: Microsoft Azure
+- SIEM Tool: Microsoft Sentinel
+- Use: Open RDP Port Honeypot
+
+![Network Diagram](https://github.com/Raptorz84/raptorz.github.io/blob/main/0e82078e-14ea-468c-9e57-170c2501636b.png)
+
+### Virtual Machines
+
+| VM Name           | OS         | Purpose                   |
+|-------------------|------------|---------------------------|
+| `TestVM-1`        | Windows 11 | RDP exposed for attack    |
+| `TestVM-2`        | Windows 11 | RDP exposed for attack    |
+| `LogAnalysis-VM`  | Windows 11 | Log collector + SIEM setup|
+
+### Network Configuration
+- Virtual Network: All 3 VMs on same subnet
+- RDP Ports Open: 3389 on both Windows VMs (no firewall rules)
+- Data Flow: Logs → Log Analytics Workspace → Microsoft Sentinel
+
+### SIEM Configuration and Data Ingestion
+- Installed Log Analytics Agent on each Windows VM
+- Connected agents to a Log Analytics Workspace**
+- Enabled SecurityEvent and Sysmon log collection
+  
+### KQL Detection Rules in Place
+
+#### Succesful Login Attempts Detection
+```kusto
+SecurityEvent
+| where Activity contains "success" and Account !contains "systems"
+```
+
+#### Brute Force Detection
+```kusto
+SecurityEvent
+| where EventID == 4625
+| summarize FailedAttempts = count() by Account, bin(TimeGenerated, 5m)
+| where FailedAttempts > 5
+```
+
+#### PowerShell Usage Detection
+```kusto
+SecurityEvent
+| where EventID == 4104
+| where CommandLine contains "Invoke" or CommandLine contains "DownloadString"
+```
+
+#### Proccess Creation Detection
+```kusto
+SecurityEvent
+| where EventID == 4688
+| where NewProcessName has_any ("cmd.exe", "powershell.exe", "wscript.exe")
+```
+
+#### Lateral Movement Detection
+```kusto
+SecurityEvent
+| where EventID in (4688)
+| where NewProcessName has_any ("psexec", "wmic", "winrm")
+```
+
+#### DNS Exfiltration Detection
+```kusto
+SecurityEvents
+| summarize QueryCount = count() by ClientIP, bin(TimeGenerated, 5m)
+| where QueryCount > 100
+```
+
+### Project Breakdown
+- Opened RDP ports to the internet
+- Logged the activity that came through from the internet recording failed and succesful login attempts
+- Understood proper SIEM tuning as an abundance of alerts makes it difficult to analyze the logs
+- Used KQL rules to filter the logs and produce alerts on important security events
+This project helped give me some real-world exposure to setting up and configuring a cloud-based SIEM from scratch, analyzing threats, and writing custom detections rules. This project helped me expand my threat detection and analysis skills as well understanding log fowarding and the importance of properly setting up a SIEM.
 
 
-## Set Up and Configured a SIEM
-> On the virtual machine I had set up I set up and configured a SIEM to monitor the home lab network. It was configured properly to avoid false false positves and detect malicious network traffic.
+
 
 
 ## Capture The Flag Completions
@@ -39,7 +112,7 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 [Link to CTF's](https://play.picoctf.org/users/RaptorZ)
 
 ### Try2Hack.Me
-> Completed Try2Hack me CTF challenge completions.
+> Completed Try2Hack me CTF challenge completion.
 >
 
 [Try2Hack.Me Completions](https://try2hack.me/vysledky)
