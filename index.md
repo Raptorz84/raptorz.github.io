@@ -22,12 +22,10 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 # Cybersecurity Projects
 
 ## Set up a Home Lab SIEM Monitoring Project
-I was able to set up a home lab enviroment where i could test different system and network vulnerabilities. I was a also able to use the home lab to set up an and peoperly configured a SIEM to monitor the network. It was configured properly to avoid false false positves and detect malicious network traffic.
+I was able to set up a home lab enviroment where i could test different system and network vulnerabilities. I used2 the home lab to set up and peoperly configure a SIEM to monitor the network traffic. It was configured properly to avoid false positves and detect malicious network traffic.
 - Platform: Microsoft Azure
 - SIEM Tool: Microsoft Sentinel
 - Use: Open RDP Port Honeypot
-
-![Network Diagram](0e82078e-14ea-468c-9e57-170c2501636b.png)
 
 ### Virtual Machines
 
@@ -36,6 +34,8 @@ I was able to set up a home lab enviroment where i could test different system a
 | `TestVM-1`        | Windows 11 | RDP exposed for attack    |
 | `TestVM-2`        | Windows 11 | RDP exposed for attack    |
 | `LogAnalysis-VM`  | Windows 11 | Log collector + SIEM setup|
+
+![Network Diagram](0e82078e-14ea-468c-9e57-170c2501636b.png)
 
 ### Network Configuration
 - Virtual Network: All 3 VMs on same subnet
