@@ -22,7 +22,7 @@ Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and rep
 # Cybersecurity Projects
 
 ## Set up a Home Lab SIEM Monitoring Project
-I was able to set up a home lab enviroment where i could test different system nd network vulnerabilities. I was a also able to use the home lab to set up an and peoperly configured a SIEM to monitor the network. It was configured properly to avoid false false positves and detect malicious network traffic.
+I was able to set up a home lab enviroment where i could test different system and network vulnerabilities. I was a also able to use the home lab to set up an and peoperly configured a SIEM to monitor the network. It was configured properly to avoid false false positves and detect malicious network traffic.
 - Platform: Microsoft Azure
 - SIEM Tool: Microsoft Sentinel
 - Use: Open RDP Port Honeypot
