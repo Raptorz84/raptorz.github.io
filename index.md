@@ -190,7 +190,7 @@ The script uses a funtion that intakes the list of ip addresses as well as the i
 
 ### Monster Hunter Damage Calculator
 
-A Python tool that models real in-game damage using modular logic and skill-based multipliers. This project helps simplify the calculation of true raw effective damage in Monster Hunter Wilds. It is used to compare various skills to find out what combination is deals the optimal amount of damage.
+A Python tool that models real in-game damage using modular logic and skill-based multipliers. This project helps simplify the calculation of true raw effective damage in Monster Hunter Wilds. It is used to compare various skills to find out what combination is deals the optimal amount of damage. Below is the terminal with example numbers inputed to show how the caclulation works and outputs.
 
 ![Script Pic](Damage-Calculator.png)
 
