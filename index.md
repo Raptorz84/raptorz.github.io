@@ -143,9 +143,9 @@ This project helped give me some real-world exposure to setting up and configuri
 # Coding Projects
 > This is a list of all the coding relating projects I have completed with relevent code attached.
 
-### Python
+## Python
 
-#### IP Allow List
+### IP Allow List
 This script automates the process of maintaining an IP allow list, ensuring that only authorized employees can access a restricted subnetwork. The algorithm scans the allow list, checks for any IPs that appear on a remove list, and updates the file accordingly.
 
 ```python
@@ -188,15 +188,22 @@ print(text)
 ```
 The script uses a funtion that intakes the list of ip addresses as well as the ip addresses that should be removed. It also updates the existing list of ip addresses after the removal. After the function is executed the updated file list is printed.
 
-#### Damage Calculation Function
+### Monster Hunter Damage Calculator
 
-This was a project made to help simplify the calculation of true raw effective damage in Monster Hunter Wilds. It is used to compare various skills to find out what combination is deals the optimal amount of damage.
+A Python tool that models real in-game damage using modular logic and skill-based multipliers. This project helps simplify the calculation of true raw effective damage in Monster Hunter Wilds. It is used to compare various skills to find out what combination is deals the optimal amount of damage.
+
+![Script Pic](Damage-Calculator.png)
+
 
 [Link To Code](https://github.com/Raptorz84/raptorz.github.io/blob/main/Damage%20Calculation%20Project.py)
 
 ***
 
 # Link to additional resources
+
+### LinkedIn
+
+[Link](https://www.linkedin.com/in/tyler-ebra-068662320/)
 
 ### Resume
 
