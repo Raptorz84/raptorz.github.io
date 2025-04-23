@@ -145,6 +145,7 @@ This project helped give me some real-world exposure to setting up and configuri
 
 ### Python
 
+#### IP Allow List
 This script automates the process of maintaining an IP allow list, ensuring that only authorized employees can access a restricted subnetwork. The algorithm scans the allow list, checks for any IPs that appear on a remove list, and updates the file accordingly.
 
 ```python
@@ -187,6 +188,11 @@ print(text)
 ```
 The script uses a funtion that intakes the list of ip addresses as well as the ip addresses that should be removed. It also updates the existing list of ip addresses after the removal. After the function is executed the updated file list is printed.
 
+#### Damage Calculation Function
+
+This was a project made to help simplify the calculation of true raw effective damage in Monster Hunter Wilds. It is used to compare various skills to find out what combination is deals the optimal amount of damage.
+
+[Link To Code](https://github.com/Raptorz84/raptorz.github.io/blob/main/Damage%20Calculation%20Project.py)
 
 ***
 
