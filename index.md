@@ -4,8 +4,6 @@ layout: default
 
 Tyler Ebra|PCI Support Specialist|Cybersecurity & Business Student
 
-![Me](IMG_3596.png)
-
 Welcome to my cybersecurity portfolio. I am currently a PCI Support Specialist for Smarter commerce and I am pursuing a Bachelor of Business Administration in cybersecurity. Below is a list of all relevent projects in my cybersecurity journey.
 
 ## Other Socials
