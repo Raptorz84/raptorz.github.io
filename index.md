@@ -2,18 +2,20 @@
 layout: default
 ---
 
-Tyler Ebra|Cybersecurity & Business Student|Hardware & Software Technician|Shift Manager
+Tyler Ebra|PCI Support Specialist|Cybersecurity & Business Student
 
-Welcome to my cybersecurity portfolio. I am currenly pursuing a Bachelor of Business Administration in cybersecurity and I am passionate about SOC analysis, security automation and threat detection. Below is a list of all relevent projects in my cybersecurity journey.
+Welcome to my cybersecurity portfolio. I am currently a PCI Support Specialist for Smarter commerce and I am pursuing a Bachelor of Business Administration in cybersecurity. Below is a list of all relevent projects in my cybersecurity journey.
 
 ## Education and Certifications
 
 *   B.A. in Cybersecurity, Southeastern University (Expected 12/2025)
-*   Comptia Security+ (Expected in 5/2025)
-*   Google Cybersecurity Certificate 04/2025
+*   Comptia Security+ 
+*   Google Cybersecurity Certificate
 
 
 ## Relevent Experience
+
+PCI Support Specialist 07/2025 - Present - Responsible for PCI, GDPR and SOC 2 compliance as well as security monitoring. 
 
 Geek Squad Agent 12/2022 - 06/2024 - Hands on experience troubleshooting and repairing hardware and software issues as well as strenghtening fundamental security practices. 
 
